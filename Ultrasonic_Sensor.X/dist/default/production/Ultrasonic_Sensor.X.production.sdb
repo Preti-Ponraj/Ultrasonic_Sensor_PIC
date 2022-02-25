@@ -1,0 +1,128 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"10 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"13 F:\Repositories\Ultrasonic_Sensor_PIC\New Folder\Ultrasonic_Sensor.X\Ultrasonic_Sensor.c
+[v _timer1 timer1 `(v  1 e 1 0 ]
+"20
+[v _main main `(v  1 e 1 0 ]
+"166 D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"650
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"671
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"1416
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"4079
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"4082
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"4373
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"20 F:\Repositories\Ultrasonic_Sensor_PIC\New Folder\Ultrasonic_Sensor.X\Ultrasonic_Sensor.c
+[v _main main `(v  1 e 1 0 ]
+{
+"31
+[v main@time time `f  1 a 4 51 ]
+[v main@pulse pulse `f  1 a 4 47 ]
+"47
+} 0
+"13
+[v _timer1 timer1 `(v  1 e 1 0 ]
+{
+"18
+} 0
+"10 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"8 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S335 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S340 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S343 . 4 `l 1 i 4 0 `d 1 f 4 0 `S335 1 fAsBytes 4 0 `S340 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S343  1 a 4 15 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 9 ]
+[s S412 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S415 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S412 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S415  1 a 2 19 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 14 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 13 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 8 ]
+"8
+[v ___flmul@b b `d  1 p 4 0 ]
+[v ___flmul@a a `d  1 p 4 4 ]
+"205
+} 0
+"4 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 D:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 41 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 34 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 39 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 46 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 45 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 38 ]
+"8
+[v ___fldiv@a a `d  1 p 4 21 ]
+[v ___fldiv@b b `d  1 p 4 25 ]
+"185
+} 0
